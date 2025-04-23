@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>VENTANILLA_U026.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>VENTANILLA_U026</name>
+		<description>CALLE 12-AV. PEDRO BELTRAN</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-77.11093141535349,-11.87064050644972,0 -77.11064557943251,-11.87025910100686,0 -77.11038891203081,-11.86995720042001,0 -77.1102467077812,-11.86976412101526,0 -77.11043796372472,-11.86960838858384,0 -77.11038351949675,-11.86940405759416,0 -77.11028506265876,-11.8692591004847,0 -77.11030350371446,-11.86911033378459,0 -77.11027034853824,-11.86907112030357,0 -77.11043425045655,-11.86890233226967,0 -77.11075568171393,-11.86929155546497,0 -77.11102593594741,-11.86929954824732,0 -77.11115396039909,-11.86934937838514,0 -77.11148186743827,-11.8692835757128,0 -77.1115616948063,-11.86943193161086,0 -77.11175088989239,-11.86931849812284,0 -77.11195300397107,-11.86922595473989,0 -77.11220071160231,-11.86916306865939,0 -77.1124113754242,-11.86914520749532,0 -77.11250962270401,-11.869129457702,0 -77.11264793233363,-11.86908340154786,0 -77.11269962232522,-11.869049766494,0 -77.11274827335217,-11.86901488129592,0 -77.1128300393089,-11.86929889351805,0 -77.11269658599069,-11.86936370778869,0 -77.11289385872793,-11.86967595410675,0 -77.11352143523368,-11.86952033203331,0 -77.1135942343458,-11.8696155776392,0 -77.11354329558728,-11.86974300513959,0 -77.11320871161313,-11.87001328715214,0 -77.11134121818303,-11.87152580841565,0 -77.1105581149277,-11.87205078761429,0 -77.11041091060974,-11.87221182035035,0 -77.11017905440988,-11.87197794890411,0 -77.11009707241573,-11.87173678651531,0 -77.11036604351131,-11.87165145271337,0 -77.11061958730001,-11.87145972461161,0 -77.11100999326906,-11.87116299596886,0 -77.11072243222696,-11.8707850759076,0 -77.11093141535349,-11.87064050644972,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

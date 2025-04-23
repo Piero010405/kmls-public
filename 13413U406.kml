@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CERRO_COLORADO_U406.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>CERRO_COLORADO_U406</name>
+		<description>TALARA-LIMA-RIMAC-LA VICTORIA</description>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.56064640469357,-16.39243066712826,0 -71.56090429770418,-16.39245655276536,0 -71.56138994459282,-16.39256904090163,0 -71.56149872125066,-16.39207797649078,0 -71.56189700675441,-16.39207726373457,0 -71.56196646224838,-16.39241096691933,0 -71.56265417777004,-16.39245584624121,0 -71.56268420444364,-16.39286301206108,0 -71.56275138729481,-16.39338518153922,0 -71.56264458880517,-16.39342158683201,0 -71.56257084124839,-16.39340120353108,0 -71.56276727217303,-16.39424716030688,0 -71.56272418202143,-16.39430013948,0 -71.56258743598437,-16.39415545352782,0 -71.56250814729707,-16.39393556890476,0 -71.5624025721572,-16.39375852773939,0 -71.56229801344016,-16.39359443626155,0 -71.56219642063603,-16.39349153082094,0 -71.56211320704912,-16.39344892007465,0 -71.56194650795244,-16.39341772470491,0 -71.56167910584324,-16.39305331817542,0 -71.56146822679257,-16.39298601285985,0 -71.56132902150202,-16.39321235530229,0 -71.5614376933118,-16.393266194007,0 -71.56134008042145,-16.39346624377595,0 -71.56121366323387,-16.39336429711726,0 -71.56075572756521,-16.3932950193137,0 -71.56067042535798,-16.39390776077883,0 -71.56042209595451,-16.39384695226015,0 -71.56064640469357,-16.39243066712826,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

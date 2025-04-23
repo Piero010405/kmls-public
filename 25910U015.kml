@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>PARIÑAS_U015N</name>
+    <description/>
+    <Style id="poly-00AAFF-2000-0-normal">
+      <LineStyle>
+        <color>ffffaa00</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>00ffaa00</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-00AAFF-2000-0-highlight">
+      <LineStyle>
+        <color>ffffaa00</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>00ffaa00</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-00AAFF-2000-0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-00AAFF-2000-0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-00AAFF-2000-0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>PARIÑAS_U015.kml</name>
+      <Placemark>
+        <name>PARIÑAS_U015</name>
+        <description>PANAMERICANA NORTE-SAN MARTIN</description>
+        <styleUrl>#poly-00AAFF-2000-0</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -81.272555,-4.555211,0
+                -81.273691,-4.556876,0
+                -81.2719857,-4.5581411,0
+                -81.2718123,-4.5576617,0
+                -81.2716925,-4.5572251,0
+                -81.2715521,-4.5567553,0
+                -81.271901,-4.556636,0
+                -81.271373,-4.555405,0
+                -81.27147,-4.555342,0
+                -81.271736,-4.555799,0
+                -81.272555,-4.555211,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

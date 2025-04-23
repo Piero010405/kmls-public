@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="cartografa_pe_con_semis_new" name="cartografa_pe_con_semis_new">
+      <SimpleField name="Descriptio" type="string"/>
+      <SimpleField name="Distritos_" type="string"/>
+      <SimpleField name="Number" type="string"/>
+      <SimpleField name="Estrato" type="string"/>
+      <SimpleField name="Real_name" type="string"/>
+      <SimpleField name="Manzanas" type="string"/>
+      <SimpleField name="Comentario" type="string"/>
+      <SimpleField name="IDDIST" type="float"/>
+      <SimpleField name="ID" type="float"/>
+      <SimpleField name="AREA" type="float"/>
+    </Schema>
+    <Schema id="combinado.schema">
+      <SimpleField name="layer" type="string"/>
+    </Schema>
+    <Folder>
+      <name>cartografa_pe_con_semis_new</name>
+      <Placemark>
+        <name>22746M027</name>
+        <Style>
+          <LineStyle>
+            <color>ff0000ff</color>
+          </LineStyle>
+          <PolyStyle>
+            <fill>0</fill>
+          </PolyStyle>
+        </Style>
+        <ExtendedData>
+          <SchemaData schemaUrl="#cartografa_pe_con_semis_new">
+            <SimpleData name="Descriptio"><![CDATA[<br><br><br> <table border="1" padding="0"> <tr><td>Area</td><td>0.240076941861384</td></tr> <tr><td>Lat</td><td>-12.045518</td></tr> <tr><td>Long</td><td>-76.947723</td></tr>]]></SimpleData>
+            <SimpleData name="Distritos_">22746</SimpleData>
+            <SimpleData name="Number">U015</SimpleData>
+            <SimpleData name="Estrato">S</SimpleData>
+            <SimpleData name="Real_name">22746U015</SimpleData>
+            <SimpleData name="Manzanas">18</SimpleData>
+            <SimpleData name="IDDIST">150137</SimpleData>
+            <SimpleData name="ID">36644</SimpleData>
+            <SimpleData name="AREA">374987</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -76.9460749167288,-12.0430893287609,0
+                  -76.945794,-12.043522,0
+                  -76.94454,-12.046282,0
+                  -76.949548,-12.048299,0
+                  -76.949541,-12.04825,0
+                  -76.950906,-12.044947,0
+                  -76.948874,-12.043998,0
+                  -76.9498543215765,-12.0418212389765,0
+                  -76.950475934216,-12.0404785556753,0
+                  -76.9477781353608,-12.0392974916604,0
+                  -76.946298697279,-12.0425920386494,0
+                  -76.9460749167288,-12.0430893287609,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+    <Document id="combinado">
+      <name>combinado</name>
+      <Placemark id="combinado.1">
+        <ExtendedData>
+          <SchemaData schemaUrl="#combinado.schema">
+            <SimpleData name="layer">22746U015</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -76.9460749167288,-12.0430893287609,0
+                -76.945794,-12.043522,0
+                -76.94454,-12.046282,0
+                -76.949548,-12.048299,0
+                -76.949541,-12.04825,0
+                -76.950906,-12.044947,0
+                -76.948874,-12.043998,0
+                -76.9498543215765,-12.0418212389765,0
+                -76.950475934216,-12.0404785556753,0
+                -76.9477781353608,-12.0392974916604,0
+                -76.946298697279,-12.0425920386494,0
+                -76.9460749167288,-12.0430893287609,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

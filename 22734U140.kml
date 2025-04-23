@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PUENTE_PIEDRA_U140.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>PUENTE_PIEDRA_U140</name>
+		<description>CALLES SIN NOMBRE</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-77.09277684465896,-11.92980487125577,0 -77.09266847689548,-11.92987947637646,0 -77.0927188660857,-11.92996167437872,0 -77.09269231895108,-11.93016008182999,0 -77.09267168393637,-11.93031675347429,0 -77.09253020759405,-11.93040070516578,0 -77.09240690424251,-11.93050888704874,0 -77.09253351061052,-11.93086403903252,0 -77.09238614433849,-11.93082529256401,0 -77.09229777069923,-11.93075705519064,0 -77.09227858598783,-11.93055853913936,0 -77.0919500521493,-11.93079156746524,0 -77.09200915115443,-11.93094293266986,0 -77.09175052688751,-11.9312120968923,0 -77.09159778981403,-11.93105039977787,0 -77.09160552738427,-11.93089175827488,0 -77.0910740796723,-11.93025538328678,0 -77.09137807723666,-11.93004953718003,0 -77.09154318709734,-11.93030361822445,0 -77.09175669828137,-11.93015645186889,0 -77.09190279956334,-11.93026448944034,0 -77.09200357509428,-11.92995429785136,0 -77.09213720856535,-11.9295057458119,0 -77.09254084730011,-11.92967131131744,0 -77.09277926381142,-11.92958593105029,0 -77.09299564772442,-11.9298263387394,0 -77.09277684465896,-11.92980487125577,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

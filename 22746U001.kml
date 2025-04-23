@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SANTA_ANITA_U001.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>SANTA_ANITA_U001</name>
+		<description>CALLES SIN NOMBRE</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-76.98062296059661,-12.05229719712661,0 -76.9815327864435,-12.05218115873672,0 -76.98244173960673,-12.05203988466712,0 -76.982482514357,-12.05184830333277,0 -76.98355777875014,-12.05166859634111,0 -76.98382285922132,-12.05169225442081,0 -76.98404800264783,-12.05162965458864,0 -76.98423152351843,-12.05149503792162,0 -76.98448716353109,-12.05132825248821,0 -76.98489461253237,-12.05123807482321,0 -76.98528830045404,-12.05132063851145,0 -76.98555442065114,-12.05141223391969,0 -76.98550676112583,-12.05164904991435,0 -76.98518865947399,-12.05148380853274,0 -76.98490676842268,-12.05141558446864,0 -76.98489719069762,-12.05168350083371,0 -76.98470610210605,-12.05171791743565,0 -76.98445675522665,-12.05183938786958,0 -76.98417451209976,-12.05203829042476,0 -76.98352546215786,-12.05230137536391,0 -76.98069859123251,-12.05248676227135,0 -76.98062296059661,-12.05229719712661,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

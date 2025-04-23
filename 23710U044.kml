@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="cartografa_pe_con_semis_new_24_" id="cartografa_pe_con_semis_new_24_">
+	<SimpleField name="Descriptio" type="string"></SimpleField>
+	<SimpleField name="Distritos_" type="string"></SimpleField>
+	<SimpleField name="Number" type="string"></SimpleField>
+	<SimpleField name="Estrato" type="string"></SimpleField>
+	<SimpleField name="Real_name" type="string"></SimpleField>
+	<SimpleField name="Manzanas" type="string"></SimpleField>
+	<SimpleField name="Comentario" type="string"></SimpleField>
+	<SimpleField name="IDDIST" type="float"></SimpleField>
+	<SimpleField name="ID" type="float"></SimpleField>
+	<SimpleField name="AREA" type="float"></SimpleField>
+</Schema>
+<Folder><name>cartografa_pe_con_semis_new_24_</name>
+  <Placemark>
+	<name>23710U044</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cartografa_pe_con_semis_new_24_">
+		<SimpleData name="Descriptio">&lt;br&gt;&lt;br&gt;&lt;br&gt; &lt;table border=&quot;1&quot; padding=&quot;0&quot;&gt; &lt;tr&gt;&lt;td&gt;Area&lt;/td&gt;&lt;td&gt;0.0623798248523435&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;Lat&lt;/td&gt;&lt;td&gt;-3.752737&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;Long&lt;/td&gt;&lt;td&gt;-73.255751&lt;/td&gt;&lt;/tr&gt;</SimpleData>
+		<SimpleData name="Distritos_">23710</SimpleData>
+		<SimpleData name="Number">U044</SimpleData>
+		<SimpleData name="Estrato">U</SimpleData>
+		<SimpleData name="Real_name">23710U044</SimpleData>
+		<SimpleData name="Manzanas">5</SimpleData>
+		<SimpleData name="IDDIST">160101</SimpleData>
+		<SimpleData name="ID">15235</SimpleData>
+		<SimpleData name="AREA">62105</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-73.25663,-3.752534,0 -73.256258,-3.752651,0 -73.2551234701989,-3.75050089109935,0 -73.254165,-3.751002,0 -73.256354,-3.754977,0 -73.257338,-3.754379,0 -73.256818,-3.753508,0 -73.25663,-3.752534,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-73.2551234701989,-3.75050089109935,0 -73.255129,-3.750498,0 -73.255123,-3.7505,0 -73.2551234701989,-3.75050089109935,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

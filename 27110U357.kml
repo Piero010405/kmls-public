@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>JULIACA_U357.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>JULIACA_U357</name>
+		<description>CALLES SUN NOMBRE</description>
+		<LookAt>
+			<longitude>-70.13917772850247</longitude>
+			<latitude>-15.49889833047412</latitude>
+			<altitude>0</altitude>
+			<heading>-1.512501987978049</heading>
+			<tilt>7.628017730224936</tilt>
+			<range>723.6690807366642</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-70.13844578934817,-15.49760629793276,0 -70.13898226884001,-15.49728707780244,0 -70.13939566727689,-15.49786788708638,0 -70.13932622028918,-15.49802173685369,0 -70.1402074686703,-15.49935603313578,0 -70.14005812848653,-15.49949724108742,0 -70.14040422991141,-15.49997770692566,0 -70.14007075922197,-15.5004880028866,0 -70.13964557624921,-15.50032043705634,0 -70.1388639833624,-15.49918868909254,0 -70.13842894117055,-15.49940520780626,0 -70.13831147143598,-15.49842424449923,0 -70.13866795686789,-15.4981966830802,0 -70.13844578934817,-15.49760629793276,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CERRO_COLORADO_U409.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>CERRO_COLORADO_U409</name>
+		<description>VILLA HERMOSA-CORDOBA-PUCHAMAHUA-CHALLAPAMPA</description>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.55760538339609,-16.38043680674058,0 -71.55728873217778,-16.38139325224394,0 -71.55718204308764,-16.38247308183677,0 -71.55728831819396,-16.38451743269874,0 -71.55658021090873,-16.38425270436049,0 -71.55607230421055,-16.38435031750702,0 -71.55594349519586,-16.38432460537797,0 -71.55583827228344,-16.38424318361282,0 -71.55566094734516,-16.38441613756776,0 -71.5554381384497,-16.3842487512393,0 -71.55527753002323,-16.3841728422406,0 -71.55558034210888,-16.38365158063664,0 -71.55529643050149,-16.38349391019121,0 -71.55505408604117,-16.38335367062321,0 -71.55531585523036,-16.38267882665022,0 -71.555617567079,-16.38210493626118,0 -71.55579457253211,-16.38180168542798,0 -71.55606525038255,-16.38199135217027,0 -71.55647299621394,-16.38199970349583,0 -71.55660842500711,-16.38198641090375,0 -71.55670353267841,-16.38126348321237,0 -71.55684364484395,-16.38031570602041,0 -71.55760538339609,-16.38043680674058,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

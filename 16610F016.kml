@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CALLAO_F016.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>CALLAO_F016</name>
+		<description>CALLE3-CALLE A-AV. STA. ROSA-AV. OSCAR BENAVIDES-AV. REPUBLICA PALOMINO-PJE 2</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-77.11557899219993,-12.0559182407223,0 -77.1165162355957,-12.05599895104285,0 -77.11649372614463,-12.05634480741322,0 -77.11590742380118,-12.05627641673747,0 -77.11590530348502,-12.05644285824377,0 -77.11589651570601,-12.05664969332171,0 -77.11606186685171,-12.0566860605788,0 -77.11603738124023,-12.05679697436033,0 -77.11599807728643,-12.05680423905841,0 -77.11603023057334,-12.05684126488542,0 -77.11600370914826,-12.0569858740623,0 -77.11501744084315,-12.05681393313749,0 -77.11512222563376,-12.05529955429529,0 -77.11367339158826,-12.05515485140915,0 -77.11369003112971,-12.05460719247421,0 -77.11431113137418,-12.05464641291566,0 -77.11517994433221,-12.05476417833288,0 -77.1151934014659,-12.05468576317796,0 -77.11566189575201,-12.05474598381889,0 -77.11559215785351,-12.05581832446245,0 -77.11557899219993,-12.0559182407223,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

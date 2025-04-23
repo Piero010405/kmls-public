@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>YAHAHUARA_M001.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>YAHAHUARA_M001</name>
+		<description>PAMPITA ZEBALLOS-ANTIQUILLA-ZAMACONA</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.54861559661671,-16.39330425580808,0 -71.54763515020024,-16.39467727877367,0 -71.54714312171141,-16.39416990102696,0 -71.54744551414709,-16.39396494489107,0 -71.54764379857424,-16.39367608530226,0 -71.54755943277424,-16.39364405481019,0 -71.54748452753009,-16.39377253718594,0 -71.54689425306513,-16.39345360302183,0 -71.54696245442946,-16.39331985116932,0 -71.54689863175695,-16.3932889273581,0 -71.54682484197294,-16.39339930918879,0 -71.54611673612035,-16.39299007750215,0 -71.54607289987322,-16.39307646160394,0 -71.54624185302579,-16.39318444226513,0 -71.54602335651531,-16.39346257093175,0 -71.54600670449332,-16.39358695865937,0 -71.54610198317597,-16.39378111722658,0 -71.54588330262979,-16.3938589477587,0 -71.54551354676508,-16.39315118452207,0 -71.5457600613932,-16.392724994595,0 -71.54591367299294,-16.39245139170822,0 -71.54619796258011,-16.39227838325277,0 -71.54683333084526,-16.39235524161679,0 -71.54757992303235,-16.39265969759137,0 -71.54861559661671,-16.39330425580808,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

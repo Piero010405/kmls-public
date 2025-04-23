@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Perú</name>
+	<Style id="line-0288D1-1581-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffd18802</color>
+			<width>2.3715</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="line-0288D1-1581-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-0288D1-1581-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-0288D1-1581-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line-0288D1-1581-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffd18802</color>
+			<width>1.581</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>Untitled layer</name>
+		<Placemark>
+			<name>Line 5</name>
+			<styleUrl>#line-0288D1-1581-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-77.10319800000001,-11.8952192,0 -77.1027069,-11.8953576,0 -77.1020393,-11.8976548,0 -77.1011381,-11.8979068,0 -77.1007518,-11.8976968,0 -77.1009664,-11.8970249,0 -77.0992308,-11.8963654,0 -77.0980053,-11.8950092,0 -77.0968895,-11.896101,0 -77.0987777,-11.8980747,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line 6</name>
+			<styleUrl>#line-0288D1-1581-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-77.10319800000001,-11.8952192,0 -77.10302640000001,-11.8973189,0 -77.1027069,-11.8984651,0 -77.10107619999999,-11.9019925,0 -77.1004324,-11.9016566,0 -77.0999794,-11.902568,0 -77.09899230000001,-11.9020641,0 -77.0995073,-11.9010143,0 -77.0990352,-11.9007623,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line 7</name>
+			<styleUrl>#line-0288D1-1581-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-77.0990352,-11.9007623,0 -77.0985202,-11.9014762,0 -77.0979194,-11.9010563,0 -77.09774779999999,-11.9005103,0 -77.0987777,-11.8980747,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

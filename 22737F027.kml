@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RIMAC_F027.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>RIMAC_F027</name>
+		<description>AV SATNTA ROSA-AV 9 DE OCTUBRE</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-77.01733505814811,-12.03962937307385,0 -77.01773790175595,-12.03897082311041,0 -77.01780465767241,-12.03874340674241,0 -77.01752320291614,-12.03862865547702,0 -77.0176999449091,-12.03816561030513,0 -77.01793570629928,-12.03818105830104,0 -77.01787847794265,-12.03859193373585,0 -77.01795491097386,-12.03885984900721,0 -77.01793515269677,-12.03913310000401,0 -77.01801986687222,-12.03916051234632,0 -77.01810017261575,-12.03941948427108,0 -77.01838585082534,-12.03960551027961,0 -77.01874982752547,-12.03994243790341,0 -77.01813975810582,-12.0402625629967,0 -77.01805238915114,-12.04033571730374,0 -77.01792305512959,-12.04030370323403,0 -77.01782809964136,-12.04015489125026,0 -77.01770385213385,-12.04002657557648,0 -77.01765073162167,-12.04014001771709,0 -77.01756444207784,-12.04013667967347,0 -77.01423048165424,-12.03767528678298,0 -77.01389823189921,-12.03748072637541,0 -77.01403870914056,-12.03722149246823,0 -77.01733505814811,-12.03962937307385,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

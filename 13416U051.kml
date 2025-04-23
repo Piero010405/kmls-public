@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>JACOBO_HUNTER_U051.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>JACOBO_HUNTER_U051</name>
+		<description>AVENIDA PAISAJISTA</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.56605306984713,-16.44908428921706,0 -71.56570657838191,-16.4488866048149,0 -71.56540891886105,-16.44879021086191,0 -71.5651865359461,-16.44861093621314,0 -71.56510564114149,-16.44842261658313,0 -71.56502774318041,-16.44827201865133,0 -71.56503485793385,-16.44804649705455,0 -71.56510409742623,-16.44789543282252,0 -71.56512417821402,-16.44776694111576,0 -71.56504454487627,-16.44760379373897,0 -71.56505013540638,-16.44745642677239,0 -71.56489512079084,-16.44732949560935,0 -71.56460687929308,-16.44729577222122,0 -71.56450080589227,-16.44713359243992,0 -71.56455211787815,-16.447079415191,0 -71.56465024898908,-16.44703595658533,0 -71.56475778985053,-16.44687650495038,0 -71.56496244821511,-16.4468114410633,0 -71.56508024248416,-16.44684016537732,0 -71.56517391420972,-16.44695986959569,0 -71.56521705621674,-16.44710221491148,0 -71.56526944826749,-16.44722744616068,0 -71.56549830398205,-16.44751692681246,0 -71.56574857320092,-16.44782014089933,0 -71.56602378885467,-16.44819765768685,0 -71.56628963451495,-16.44850275946113,0 -71.56660828957399,-16.44877046775978,0 -71.56685629785257,-16.44895056794291,0 -71.56719345191061,-16.44906666284607,0 -71.56745412858444,-16.44943159788016,0 -71.56712457835606,-16.44993292621701,0 -71.56665087419617,-16.45035610957702,0 -71.56629682803086,-16.45074558781083,0 -71.56595154709292,-16.45110843030936,0 -71.56574148296404,-16.45092975273778,0 -71.56551618638409,-16.45113752013964,0 -71.56504800886812,-16.45077904589913,0 -71.56638426328465,-16.44938132004939,0 -71.56605306984713,-16.44908428921706,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

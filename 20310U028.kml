@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>HUANYACO_U028.kml</name>
+	<open>1</open>
+	<StyleMap id="m_ylw-pushpin5333">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin5333</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl5333</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl5333">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>66ff5500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin5333">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>66ff5500</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>HUANYACO_U028</name>
+		<description>CORONEL SANTIBAÑEZ-JOSE OLAYA-SAN FERNANDO</description>
+		<styleUrl>#m_ylw-pushpin5333</styleUrl>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-75.19672303173738,-12.05209022400818,0 -75.19715899892709,-12.05294063690965,0 -75.1981714693856,-12.05430236157626,0 -75.19907177251611,-12.05543703010576,0 -75.19952498837404,-12.05587215621892,0 -75.19994784263481,-12.0563694830195,0 -75.19896019593342,-12.05707694541666,0 -75.19794730885714,-12.05628309952618,0 -75.19771011777961,-12.05603872410069,0 -75.19758189054757,-12.05611116964643,0 -75.19742295463925,-12.05592415705777,0 -75.19687397007661,-12.05538298499154,0 -75.19652602417523,-12.05471558970267,0 -75.19634005680986,-12.05451712587924,0 -75.19582899427496,-12.05411293999273,0 -75.19563563677237,-12.05378701507376,0 -75.19516388931419,-12.05136599407927,0 -75.19611019502604,-12.0505266602333,0 -75.19672303173738,-12.05209022400818,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>COMAS_U043.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>COMAS_U043</name>
+		<description>RICARDO PALMA-AV REVOLUCION-ICA-JORGE CHAVEZ-TARAPACA-AREQUIPA-RAMOS CASTILA-AMERICA-SUCRE-PINGIO ALVA-CESAR VALLEJO</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-77.02259311860824,-11.91255780622143,0 -77.02400860230138,-11.91262948739713,0 -77.02418827807382,-11.91210020563807,0 -77.02375807055674,-11.91203487402935,0 -77.02383197109377,-11.91159686604566,0 -77.02411725495927,-11.9116091505821,0 -77.02415130178935,-11.91125775970247,0 -77.02400432876934,-11.91104137450031,0 -77.02259000483143,-11.91094857042372,0 -77.02260658668577,-11.91073967933319,0 -77.02399307732723,-11.91079886369616,0 -77.02400843973616,-11.9109480522093,0 -77.02431556128623,-11.91095030386254,0 -77.02441075929662,-11.91121450888734,0 -77.02444309440188,-11.91139494474858,0 -77.02490672655482,-11.91145645875746,0 -77.02529157024146,-11.91136419291873,0 -77.02541802719367,-11.9111835664117,0 -77.02531007925869,-11.91107394983053,0 -77.0254003182841,-11.91095130482331,0 -77.02559946236791,-11.9109131845443,0 -77.02564903332814,-11.91125434301714,0 -77.02559446064795,-11.91126197961253,0 -77.02559860952727,-11.91132824670888,0 -77.02567092543022,-11.91134455307017,0 -77.02565515011172,-11.91142660178686,0 -77.02578139337263,-11.91147239221411,0 -77.02573351572583,-11.91166249479435,0 -77.02565304344545,-11.91190262928538,0 -77.02493743255249,-11.91174133134086,0 -77.02445920078702,-11.91314269898946,0 -77.02383703402921,-11.91302826591466,0 -77.02066327223764,-11.91290613431382,0 -77.02067659293866,-11.91247733775819,0 -77.02259311860824,-11.91255780622143,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

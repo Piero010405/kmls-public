@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>JACOBO_HUNTER_F001.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>JACOBO_HUNTER_F001</name>
+		<description>LISBOA-COSTA RICA-TALARA-SAN MIGUEL DE PIURA-SAN SALVADOR-MARISCAL NIETOBERLIN</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-71.55413518260602,-16.44797525795879,0 -71.55458933560146,-16.4475291424171,0 -71.55387724269295,-16.44682198404023,0 -71.55429256642039,-16.44633484989859,0 -71.55473691563084,-16.44588914336737,0 -71.55442474458269,-16.44556849316662,0 -71.5553744292461,-16.44461436467697,0 -71.55625569099475,-16.44548579014323,0 -71.55571827619194,-16.44605370852075,0 -71.55592019073846,-16.44684263728457,0 -71.55582079671319,-16.44639523592955,0 -71.55560301686022,-16.44635404744966,0 -71.55545004893727,-16.44640349161426,0 -71.55497885638258,-16.44700249440162,0 -71.55521823100483,-16.44721859095816,0 -71.555910303038,-16.44684390898035,0 -71.55624203527485,-16.4473562355439,0 -71.55613877191371,-16.44744218285914,0 -71.55529664217433,-16.44795226748551,0 -71.5546727562742,-16.44855932078065,0 -71.55413518260602,-16.44797525795879,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

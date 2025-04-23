@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PUENTE_PIEDRA_U133.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>PUENTE_PIEDRA_U133</name>
+		<description>LOS EUCALIPTOS-LOS ROSALES-PANAMERICANA NTE-LOS GERANIOS-LOS FLORES-LOS FICUS</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-77.07854864611919,-11.91588849380588,0 -77.07700500191173,-11.91770589547731,0 -77.07595217572911,-11.91637068867892,0 -77.07384411125868,-11.91337490492239,0 -77.07383191357755,-11.91312543745551,0 -77.0741029932362,-11.91281116281962,0 -77.07488195014818,-11.91243181273222,0 -77.07424360716193,-11.91112711307115,0 -77.07696539555134,-11.90980103483839,0 -77.07723043622831,-11.9097648422267,0 -77.07747068766167,-11.91034670401446,0 -77.07753772176666,-11.91063164177995,0 -77.07741963029042,-11.91107084627342,0 -77.07785691704129,-11.91117815163901,0 -77.07821680101722,-11.91167187141834,0 -77.07840372924642,-11.91194474843143,0 -77.07929309364015,-11.91263560612305,0 -77.07891068206183,-11.91361151373276,0 -77.07887235489741,-11.91393738960975,0 -77.0786611165063,-11.9143811714753,0 -77.07793624733843,-11.91492220575224,0 -77.07854864611919,-11.91588849380588,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

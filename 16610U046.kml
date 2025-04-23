@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CALLAO_U046.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>CALLAO_U046</name>
+		<description>QUILCA-AV. PASCAMAYO-JUNIOR PIURA-OJE 68-CAJAMARCA</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-77.09138312589266,-12.02288557811826,0 -77.0916155332381,-12.02319043685692,0 -77.09214987796705,-12.02357675011067,0 -77.09307431813134,-12.02394706217468,0 -77.09355779189355,-12.02423336475247,0 -77.093880130644,-12.02455116631261,0 -77.09406190049836,-12.02486487600583,0 -77.09353599509741,-12.02510570213142,0 -77.09321009339473,-12.02474345547999,0 -77.09286819964484,-12.02454346510871,0 -77.09263908580506,-12.02443289797909,0 -77.09262533006783,-12.02447781453985,0 -77.09273601289048,-12.02453350509758,0 -77.09204953859279,-12.02488660262958,0 -77.09190902208181,-12.02461007887502,0 -77.09161005000051,-12.02470695481552,0 -77.0910059802253,-12.02346111078887,0 -77.09082833623339,-12.02311319019021,0 -77.09077538929664,-12.02294278315559,0 -77.09126988095014,-12.02271384749844,0 -77.09138312589266,-12.02288557811826,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
