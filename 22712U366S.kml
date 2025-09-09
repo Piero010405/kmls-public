@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="22712U366S" id="22712U366S">
+	<SimpleField name="BLOCK_ID" type="string"></SimpleField>
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="string"></SimpleField>
+	<SimpleField name="extrude" type="string"></SimpleField>
+	<SimpleField name="visibility" type="string"></SimpleField>
+	<SimpleField name="drawOrder" type="string"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+	<SimpleField name="IDDIST" type="float"></SimpleField>
+	<SimpleField name="area_km2" type="float"></SimpleField>
+</Schema>
+<Folder><name>22712U366S</name>
+  <Placemark>
+	<name>22712U366S</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#22712U366S">
+		<SimpleData name="BLOCK_ID">22712U366S</SimpleData>
+		<SimpleData name="end">-1</SimpleData>
+		<SimpleData name="altitudeMode">0</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="drawOrder">150103</SimpleData>
+		<SimpleData name="icon">0.1618755792238023</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.885201,-12.020924,0 -76.885191,-12.019819,0 -76.88529,-12.019579,0 -76.884585,-12.019328,0 -76.884459,-12.020344,0 -76.884415,-12.020896,0 -76.883132,-12.020842,0 -76.882896,-12.022358,0 -76.883567,-12.02247,0 -76.883222,-12.025132,0 -76.886015,-12.025488,0 -76.886231,-12.022823,0 -76.886039,-12.022758,0 -76.885915,-12.02099,0 -76.885201,-12.020924,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

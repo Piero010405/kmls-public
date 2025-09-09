@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="22719F032S" id="22719F032S">
+	<SimpleField name="BLOCK_ID" type="string"></SimpleField>
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="string"></SimpleField>
+	<SimpleField name="extrude" type="string"></SimpleField>
+	<SimpleField name="visibility" type="string"></SimpleField>
+	<SimpleField name="drawOrder" type="string"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+	<SimpleField name="IDDIST" type="float"></SimpleField>
+	<SimpleField name="area_km2" type="float"></SimpleField>
+</Schema>
+<Folder><name>22719F032S</name>
+  <Placemark>
+	<name>22719F032S</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#22719F032S">
+		<SimpleData name="BLOCK_ID">22719F032S</SimpleData>
+		<SimpleData name="end">-1</SimpleData>
+		<SimpleData name="altitudeMode">0</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="drawOrder">150110</SimpleData>
+		<SimpleData name="icon">0.1215421678475244</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.059747,-11.942734,0 -77.0596922851443,-11.9426312247981,0 -77.059745,-11.942594,0 -77.060082,-11.942368,0 -77.059253,-11.9405,0 -77.058849,-11.940735,0 -77.05902,-11.941202,0 -77.057957,-11.941787,0 -77.057571,-11.942017,0 -77.0573,-11.941652,0 -77.056859,-11.941826,0 -77.055248,-11.943024,0 -77.057121,-11.9449,0 -77.057524,-11.944633,0 -77.057815,-11.944993,0 -77.059126,-11.943847,0 -77.060222,-11.942991,0 -77.060099,-11.942497,0 -77.059747,-11.942734,0</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-77.0596922851443,-11.9426312247981,0 -77.059095,-11.943053,0 -77.05831,-11.94376,0 -77.05796,-11.943354,0 -77.058616,-11.942719,0 -77.059451,-11.942178,0 -77.0596922851443,-11.9426312247981,0</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

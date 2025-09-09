@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="22744F027S" id="22744F027S">
+	<SimpleField name="BLOCK_ID" type="string"></SimpleField>
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="string"></SimpleField>
+	<SimpleField name="extrude" type="string"></SimpleField>
+	<SimpleField name="visibility" type="string"></SimpleField>
+	<SimpleField name="drawOrder" type="string"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+	<SimpleField name="IDDIST" type="float"></SimpleField>
+	<SimpleField name="area_km2" type="float"></SimpleField>
+</Schema>
+<Folder><name>22744F027S</name>
+  <Placemark>
+	<name>22744F027S</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#22744F027S">
+		<SimpleData name="BLOCK_ID">22744F027S</SimpleData>
+		<SimpleData name="end">-1</SimpleData>
+		<SimpleData name="altitudeMode">0</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="drawOrder">150135</SimpleData>
+		<SimpleData name="icon">0.05307354060141439</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.105495,-11.993105,0 -77.106354,-11.991241,0 -77.10697,-11.990624,0 -77.106522,-11.990397,0 -77.105981,-11.990975,0 -77.105767,-11.991345,0 -77.105568,-11.991079,0 -77.105554,-11.991074,0 -77.105316,-11.990801,0 -77.106183,-11.990023,0 -77.105376,-11.989301,0 -77.104055,-11.989382,0 -77.104222,-11.990938,0 -77.10463,-11.990898,0 -77.104812,-11.990978,0 -77.105557,-11.991682,0 -77.104976,-11.992839,0 -77.105495,-11.993105,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
