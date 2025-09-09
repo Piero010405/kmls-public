@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="22719F034S" id="22719F034S">
+	<SimpleField name="BLOCK_ID" type="string"></SimpleField>
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="string"></SimpleField>
+	<SimpleField name="extrude" type="string"></SimpleField>
+	<SimpleField name="visibility" type="string"></SimpleField>
+	<SimpleField name="drawOrder" type="string"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+	<SimpleField name="IDDIST" type="float"></SimpleField>
+	<SimpleField name="area_km2" type="float"></SimpleField>
+</Schema>
+<Folder><name>22719F034S</name>
+  <Placemark>
+	<name>22719F034S</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#22719F034S">
+		<SimpleData name="BLOCK_ID">22719F034S</SimpleData>
+		<SimpleData name="end">-1</SimpleData>
+		<SimpleData name="altitudeMode">0</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="drawOrder">150110</SimpleData>
+		<SimpleData name="icon">0.05923779313143343</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.0528098080976,-11.9442795812535,0 -77.053044,-11.944122,0 -77.054077,-11.943321,0 -77.053753,-11.942939,0 -77.052917,-11.943452,0 -77.05266,-11.94305,0 -77.05214,-11.943344,0 -77.051549,-11.943452,0 -77.051568,-11.943891,0 -77.051512,-11.944394,0 -77.051147,-11.944369,0 -77.051046,-11.944779,0 -77.051769,-11.94498,0 -77.051694,-11.94561,0 -77.051349,-11.946304,0 -77.051817,-11.946575,0 -77.052366,-11.945161,0 -77.052831,-11.945363,0 -77.053234,-11.945511,0 -77.053647,-11.946011,0 -77.053906,-11.946671,0 -77.054455,-11.946499,0 -77.054232,-11.946029,0 -77.053552,-11.945168,0 -77.053158,-11.944798,0 -77.053463,-11.944384,0 -77.053098,-11.944113,0 -77.0528098080976,-11.9442795812535,0</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-77.051881,-11.943875,0 -77.052383,-11.943764,0 -77.0526630583635,-11.944364405825,0 -77.052643,-11.944376,0 -77.052527,-11.944702,0 -77.051857,-11.944542,0 -77.051881,-11.943875,0</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-77.0528098080976,-11.9442795812535,0 -77.052668,-11.944375,0 -77.0526630583635,-11.944364405825,0 -77.0528098080976,-11.9442795812535,0</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

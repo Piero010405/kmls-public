@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="22719F009S" id="22719F009S">
+	<SimpleField name="BLOCK_ID" type="string"></SimpleField>
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="string"></SimpleField>
+	<SimpleField name="extrude" type="string"></SimpleField>
+	<SimpleField name="visibility" type="string"></SimpleField>
+	<SimpleField name="drawOrder" type="string"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+	<SimpleField name="IDDIST" type="float"></SimpleField>
+	<SimpleField name="area_km2" type="float"></SimpleField>
+</Schema>
+<Folder><name>22719F009S</name>
+  <Placemark>
+	<name>22719F009S</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#22719F009S">
+		<SimpleData name="BLOCK_ID">22719F009S</SimpleData>
+		<SimpleData name="end">-1</SimpleData>
+		<SimpleData name="altitudeMode">0</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="drawOrder">150110</SimpleData>
+		<SimpleData name="icon">0.04619740906709383</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.032566,-11.915083,0 -77.033497,-11.915071,0 -77.033499,-11.915841,0 -77.033928,-11.915847,0 -77.033879,-11.913994,0 -77.033461,-11.914033,0 -77.032107,-11.914079,0 -77.032094,-11.915077,0 -77.031668,-11.915109,0 -77.031687,-11.915593,0 -77.032094,-11.915622,0 -77.03214,-11.916478,0 -77.032572,-11.916537,0 -77.032606,-11.917029,0 -77.033067,-11.916997,0 -77.033061,-11.915865,0 -77.033463,-11.915844,0 -77.033481,-11.91561,0 -77.032567,-11.915596,0 -77.032566,-11.915083,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
